@@ -32,9 +32,9 @@ export function TokenIcon({
 }: {
   symbol: string;
   bg: string;
-  fg?: string;
-  glyph?: string;
-  size?: number;
+  fg?: string | undefined;
+  glyph?: string | undefined;
+  size?: number | undefined;
   chip?: { bg: string; glyph: string } | undefined;
 }) {
   return (
